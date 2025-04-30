@@ -1,0 +1,1 @@
+Teknik Pemodelan dan Optimasi Proses merupakan salah satu mata kuliah yang wajib dimiliki oleh mahasiswa Teknik Industri Pertanian Sarjana di IPB University. Pada mata kuliah ini, saya mempelajari model dasar algoritma dengan menggunakan software Design Expert 13.
