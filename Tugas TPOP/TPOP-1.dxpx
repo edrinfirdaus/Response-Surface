@@ -1,0 +1,167 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="TPOP-1.dxpx" creator="DX13" version="13.0.5.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="CCD" noOfRuns="11" noOfFactors="2" noOfResponses="2" noOfAnalyses="2">
+<designNotes>This data file created by Design-Expert 13.</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="Time" unit="h" type="Numeric" uuid="00000000-af00-0000-2000-000000000000">
+<numeric format="General" low="4" high="6" stdDev="0"/>
+</factor>
+<factor id="B" name="String Speed" unit="rpm" type="Numeric" uuid="00000000-af00-0000-2000-000000000000">
+<numeric format="General" low="200" high="600" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="Crued oil yield" unit="%" type="Normal" format="General" responseUuId="2e56c4d2-e30d-44e9-9e13-8729ba7a7382"/>
+<response id="2" name="Density" unit="g/cm^3" type="Normal" format="General" responseUuId="247cefe8-6260-450c-880a-cdecf29f8f13"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>95</width>
+</column>
+<column id="B" type="factor">
+<width>95</width>
+</column>
+<column id="1" type="response">
+<width>95</width>
+</column>
+<column id="2" type="response">
+<width>95</width>
+</column>
+</visibleColumns>
+</designLayout>
+<perspectives>
+<report name="main_frame" width="1024" height="768">layout2|name=main_toolbar;caption=Toolbar;state=2106108;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=441;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=start_screen;caption=;state=258;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=navigation_tree;caption=Navigation Pane;state=5628;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=600;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=node_view;caption=;state=4352;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Tool;caption=;state=2110204;dir=1;layer=10;row=0;pos=443;prop=100000;bestw=550;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Properties;caption=Design Properties;state=2098686;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=200;besth=300;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|name=History;caption=History;state=2098686;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=300;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|dock_size(1,10,0)=39|dock_size(5,0,0)=10|dock_size(4,1,0)=200|</report>
+<report name="report_confirmation_" width="1536" height="864">2221be506630b93c002a93a800000002=*0,1|2221c0e06630b93c002a944200000003=+2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=2221be506630b93c002a93a800000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=798;besth=314;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=2221c0e06630b93c002a944200000003;caption=;state=2098172;dir=3;layer=1;row=0;pos=0;prop=100000;bestw=798;besth=321;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(3,1,0)=323|</report>
+<report name="report_fit_summary_Crued oil yield" width="0" height="0"></report>
+<report name="report_fit_summary_Density" width="0" height="0"></report>
+<report name="report_solutions_" width="1536" height="864">2221a9d06630b7fc0025b56100000002=*0|2221b9306630b7fd0025b5ad00000003=+1,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=2221a9d06630b7fc0025b56100000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=790;besth=296;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=2221b9306630b7fd0025b5ad00000003;caption=;state=2098172;dir=3;layer=2;row=0;pos=0;prop=100000;bestw=790;besth=304;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(3,2,0)=306|</report>
+</perspectives>
+</guiState>
+<designModel terms="6">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="AB"/>
+<designTerm id="4" coef="1" term="A^2"/>
+<designTerm id="5" coef="1" term="B^2"/>
+</designModel>
+<run stdNo="8" dsnId="9" runNo="1" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">5</facActual>
+<facActual id="B">682.842712474619</facActual>
+<resVal id="1">57.45</resVal>
+<resVal id="2">0.869</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="2" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">6</facActual>
+<facActual id="B">600</facActual>
+<resVal id="1">54.84</resVal>
+<resVal id="2">0.884</resVal>
+</run>
+<run stdNo="10" dsnId="10" runNo="3" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">5</facActual>
+<facActual id="B">400</facActual>
+<resVal id="1">64.72</resVal>
+<resVal id="2">0.887</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="4" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">6.41421356237309</facActual>
+<facActual id="B">400</facActual>
+<resVal id="1">60.25</resVal>
+<resVal id="2">0.887</resVal>
+</run>
+<run stdNo="2" dsnId="3" runNo="5" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">6</facActual>
+<facActual id="B">200</facActual>
+<resVal id="1">56.55</resVal>
+<resVal id="2">0.884</resVal>
+</run>
+<run stdNo="7" dsnId="8" runNo="6" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">5</facActual>
+<facActual id="B">117.157287525381</facActual>
+<resVal id="1">55.1</resVal>
+<resVal id="2">0.885</resVal>
+</run>
+<run stdNo="1" dsnId="2" runNo="7" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">4</facActual>
+<facActual id="B">200</facActual>
+<resVal id="1">52.44</resVal>
+<resVal id="2">0.872</resVal>
+</run>
+<run stdNo="5" dsnId="6" runNo="8" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">3.58578643762691</facActual>
+<facActual id="B">400</facActual>
+<resVal id="1">52.48</resVal>
+<resVal id="2">0.87</resVal>
+</run>
+<run stdNo="11" dsnId="10" runNo="9" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">5</facActual>
+<facActual id="B">400</facActual>
+<resVal id="1">65.4</resVal>
+<resVal id="2">0.859</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="10" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">4</facActual>
+<facActual id="B">600</facActual>
+<resVal id="1">54.1</resVal>
+<resVal id="2">0.871</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="11" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">5</facActual>
+<facActual id="B">400</facActual>
+<resVal id="1">64.7</resVal>
+<resVal id="2">0.865</resVal>
+</run>
+<responseModel rmId="1" analysisUuId="17516268-fb09-46a3-a52d-487d74e8def4" name="Crued oil yield">
+<response id="1" responseUuId="2e56c4d2-e30d-44e9-9e13-8729ba7a7382" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="1.62498906307596"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="6">
+<equationTerm id="0" coef="64.94" term="Intercept"/>
+<equationTerm id="1" coef="1.97980492245487" term="A"/>
+<equationTerm id="2" coef="0.409175233947097" term="B"/>
+<equationTerm id="3" coef="-0.842499999999997" term="AB"/>
+<equationTerm id="4" coef="-4.746875" term="A^2"/>
+<equationTerm id="5" coef="-4.791875" term="B^2"/>
+<equationTerm id="6" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="2" analysisUuId="2d67fc1a-206b-4bf9-a4aa-afc5b4fe5b93" name="Density">
+<response id="2" responseUuId="247cefe8-6260-450c-880a-cdecf29f8f13" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="0"/>
+<transform id="0" name="None" successLevel="1"/>
+</responseModel>
+<optimization models="6">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="5" limitLow="4" limitHigh="6" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="400" limitLow="200" limitHigh="600" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="Maximum" type="Numeric" target="65.4" limitLow="52.44" limitHigh="65.4" weightLow="1" weightHigh="1" overlayLow="52.44" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="2e56c4d2-e30d-44e9-9e13-8729ba7a7382" rmId="1" analysisUuId="17516268-fb09-46a3-a52d-487d74e8def4"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="2e56c4d2-e30d-44e9-9e13-8729ba7a7382" rmId="1" analysisUuId="17516268-fb09-46a3-a52d-487d74e8def4"/>
+<criteria modType="Response" id="2" goal="None" type="Numeric" target="Missing" limitLow="0.859" limitHigh="0.887" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="247cefe8-6260-450c-880a-cdecf29f8f13" rmId="2" analysisUuId="2d67fc1a-206b-4bf9-a4aa-afc5b4fe5b93"/>
+<criteria modType="POE" id="2" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="247cefe8-6260-450c-880a-cdecf29f8f13" rmId="2" analysisUuId="2d67fc1a-206b-4bf9-a4aa-afc5b4fe5b93"/>
+</optimization>
+<confirmationData>
+<runData numRuns="1" id="1">
+<factorData>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</factorData>
+<responseData responseName="Crued oil yield">
+<responseValue/>
+</responseData>
+<responseData responseName="Density">
+<responseValue/>
+</responseData>
+</runData>
+</confirmationData>
+<buildInfo CCDType="Full" alphaType="Rotatable" noOfFactorialReps="1" noOfAxialReplicates="1" noOfCenterPoints="3" buildTime="13"/>
+</DEXXMLDoc>

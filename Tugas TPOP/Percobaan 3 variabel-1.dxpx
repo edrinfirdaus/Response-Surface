@@ -1,0 +1,759 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="Percobaan 3 variabel-1.dxpx" creator="DX13" version="13.0.5.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="CCD" noOfRuns="17" noOfFactors="3" noOfResponses="3" noOfAnalyses="3">
+<designNotes>This data file created by Design-Expert 13.</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="Suhu" unit="&apos;C" type="Numeric" uuid="00000000-4000-0000-2000-000000000000">
+<numeric format="General" low="-1" high="1" stdDev="0"/>
+</factor>
+<factor id="B" name="Waktu" unit="Jam" type="Numeric" uuid="00000000-4000-0000-2000-000000000000">
+<numeric format="General" low="-1" high="1" stdDev="0"/>
+</factor>
+<factor id="C" name="Kecepatan Pengadukan" unit="rpm" type="Numeric" uuid="00000000-4000-0000-2000-000000000000">
+<numeric format="General" low="-1" high="1" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="Rendemen minyak" unit="%" type="Normal" format="General" responseUuId="d806dae1-e056-49cb-ae3f-46e830e7de38"/>
+<response id="2" name="Viskositas pada 40 C" unit="cSt" type="Normal" format="General" responseUuId="13eca3d8-1ceb-4dca-a485-0e8c5d404c06"/>
+<response id="3" name="Bilangan asam" unit="mg KOH.g^3" type="Normal" format="General" responseUuId="57118e10-902a-4de1-93c9-1d5b27eb1bb9"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>95</width>
+</column>
+<column id="B" type="factor">
+<width>95</width>
+</column>
+<column id="C" type="factor">
+<width>95</width>
+</column>
+<column id="1" type="response">
+<width>95</width>
+</column>
+<column id="2" type="response">
+<width>95</width>
+</column>
+<column id="3" type="response">
+<width>95</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="Diagnostics" index="0">
+<legend key="NormalResidualsGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsPredGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsRunGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="PredVsActualGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="BoxCoxGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>Lambda</showItem>
+<showItem>RecommendedTransform</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsFactorGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="CooksDistanceGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="LeverageGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFFITSGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFBETASGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<colorBy type="response" index="0"/>
+</graphArea>
+<graphArea name="Model" index="0" graph="0">
+<graphMethod>3D</graphMethod>
+<axis type="factor" index="0">
+<low>-4</low>
+<high>4</high>
+<format>General</format>
+<ticks>5</ticks>
+</axis>
+<axis type="factor" index="1">
+<low>-4</low>
+<high>4</high>
+<format>General</format>
+<ticks>5</ticks>
+</axis>
+<contours type="response" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>51.0117</contourLevel>
+<contourLevel>52.8833</contourLevel>
+<contourLevel>54.755</contourLevel>
+<contourLevel>56.6267</contourLevel>
+<contourLevel>58.4983</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="10" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="2" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="4" fontSize="14" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="7" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="Diagnostics" index="1">
+<legend key="NormalResidualsGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsPredGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsRunGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="PredVsActualGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="BoxCoxGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>Lambda</showItem>
+<showItem>RecommendedTransform</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsFactorGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="CooksDistanceGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="LeverageGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFFITSGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFBETASGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<colorBy type="response" index="1"/>
+</graphArea>
+<graphArea name="Model" index="1" graph="0">
+<graphMethod>3D</graphMethod>
+<contours type="response" index="1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>29.0453</contourLevel>
+<contourLevel>31.4874</contourLevel>
+<contourLevel>33.9294</contourLevel>
+<contourLevel>36.3715</contourLevel>
+<contourLevel>38.8135</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="7" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="Diagnostics" index="2">
+<legend key="NormalResidualsGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsPredGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsRunGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="PredVsActualGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="BoxCoxGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>Lambda</showItem>
+<showItem>RecommendedTransform</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsFactorGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="CooksDistanceGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="LeverageGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFFITSGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFBETASGraph" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<colorBy type="response" index="2"/>
+</graphArea>
+<graphArea name="Model" index="2" graph="0">
+<graphMethod>3D</graphMethod>
+<contours type="response" index="2" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>23.7632</contourLevel>
+<contourLevel>26.0817</contourLevel>
+<contourLevel>28.4003</contourLevel>
+<contourLevel>30.7188</contourLevel>
+<contourLevel>33.0374</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="7" title="Design-Expert® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="NumericalOptimization">
+<graphMethod>Contour</graphMethod>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+</graphSettings>
+<perspectives>
+<report name="diagnostics_notebook_Bilangan asam" width="1536" height="864">b3f223506630c765000d56a900000002=*0|b3f225e06630c765000d579b00000003=+1,2,6|b3f23a606630c765000d57a300000004=+4,5|b3f228706630c765000d57ab00000005=+3,7,8,9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f223506630c765000d56a900000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f225e06630c765000d579b00000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=660;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f23a606630c765000d57a300000004;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f228706630c765000d57ab00000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=1;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,4,0)=662|dock_size(3,5,0)=362|</report>
+<report name="diagnostics_notebook_Rendemen minyak" width="1536" height="864">b3f220c06630c69a000a3ea200000002=*0|b3f220c06630c6b7000aadf000000003=+1,2,6|b3f235406630c6b7000aae5700000004=+4,5|b3f225e06630c6b7000aaec600000005=+3,7,8,9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f220c06630c69a000a3ea200000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f220c06630c6b7000aadf000000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=660;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f235406630c6b7000aae5700000004;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f225e06630c6b7000aaec600000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=1;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,4,0)=662|dock_size(3,5,0)=362|</report>
+<report name="diagnostics_notebook_Viskositas pada 40 C" width="1536" height="864">b3f235406630c739000ca8a400000002=*0|b3f237d06630c739000ca98000000003=+1,2,6|b3f23a606630c739000ca98700000004=+4,5|b3f228706630c739000ca99000000005=+3,7,8,9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f235406630c739000ca8a400000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f237d06630c739000ca98000000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=660;besth=352;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f23a606630c739000ca98700000004;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f228706630c739000ca99000000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=1;prop=100000;bestw=656;besth=360;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,4,0)=662|dock_size(3,5,0)=362|</report>
+<report name="main_frame" width="1552" height="880">layout2|name=main_toolbar;caption=Toolbar;state=2106108;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=441;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=start_screen;caption=;state=258;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=navigation_tree;caption=Navigation Pane;state=5628;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=600;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=node_view;caption=;state=4352;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Tool;caption=;state=2110204;dir=1;layer=10;row=0;pos=443;prop=100000;bestw=550;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Design Properties;caption=Design Properties;state=2098684;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=200;besth=300;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|name=History;caption=History;state=2098686;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=300;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=217;floath=340|dock_size(1,10,0)=39|dock_size(5,0,0)=10|dock_size(4,1,0)=200|</report>
+<report name="modelgraph_notebook_Bilangan asam" width="1536" height="864">b3f22b006630c76a000d69dd00000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=660;besth=360;minw=660;minh=360;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f22b006630c76a000d69dd00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1318;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|</report>
+<report name="modelgraph_notebook_Rendemen minyak" width="1536" height="864">b3f23a606630c6a3000a5fca00000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=660;besth=360;minw=660;minh=360;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f23a606630c6a3000a5fca00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1318;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|</report>
+<report name="modelgraph_notebook_Viskositas pada 40 C" width="1536" height="864">b3f235406630c73b000cb32200000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=660;besth=360;minw=660;minh=360;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f235406630c73b000cb32200000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1318;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|</report>
+<report name="report_anova_Bilangan asam" width="1536" height="864">b3f220c06630c75f000d3dcb00000002=*0|b3f223506630c75f000d3e8200000003=+1,2|b3f225e06630c75f000d3e8a00000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f220c06630c75f000d3dcb00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f223506630c75f000d3e8200000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f225e06630c75f000d3e8a00000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,3,0)=662|</report>
+<report name="report_anova_Rendemen minyak" width="1536" height="864">b3f220c06630c6850009ece400000002=+0|b3f228706630c690000a172e00000003=*1,2|b3f230206630c690000a173700000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f220c06630c6850009ece400000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f228706630c690000a172e00000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f230206630c690000a173700000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,3,0)=662|</report>
+<report name="report_anova_Viskositas pada 40 C" width="1536" height="864">b3f223506630c72f000c825700000002=*0|b3f225e06630c72f000c831900000003=+1,2|b3f23cf06630c72f000c832100000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f223506630c72f000c825700000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=718;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f225e06630c72f000c831900000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=b3f23cf06630c72f000c832100000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=100000;bestw=660;besth=356;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,3,0)=662|</report>
+<report name="report_fit_summary_Bilangan asam" width="0" height="0"></report>
+<report name="report_fit_summary_Rendemen minyak" width="0" height="0"></report>
+<report name="report_fit_summary_Viskositas pada 40 C" width="0" height="0"></report>
+</perspectives>
+</guiState>
+<designModel terms="10">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="C"/>
+<designTerm id="4" coef="1" term="AB"/>
+<designTerm id="5" coef="1" term="AC"/>
+<designTerm id="6" coef="1" term="BC"/>
+<designTerm id="7" coef="1" term="A^2"/>
+<designTerm id="8" coef="1" term="B^2"/>
+<designTerm id="9" coef="1" term="C^2"/>
+</designModel>
+<run stdNo="2" dsnId="3" runNo="1" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">-1</facActual>
+<facActual id="C">-1</facActual>
+<resVal id="1">55.58</resVal>
+<resVal id="2">32.84</resVal>
+<resVal id="3">42.55</resVal>
+</run>
+<run stdNo="10" dsnId="11" runNo="2" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.68179283050743</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">57.34</resVal>
+<resVal id="2">19.73</resVal>
+<resVal id="3">20.15</resVal>
+</run>
+<run stdNo="14" dsnId="15" runNo="3" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">1.68179283050743</facActual>
+<resVal id="1">50.79</resVal>
+<resVal id="2">53.12</resVal>
+<resVal id="3">29.46</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="4" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">-1</facActual>
+<resVal id="1">56.26</resVal>
+<resVal id="2">19.23</resVal>
+<resVal id="3">24.26</resVal>
+</run>
+<run stdNo="15" dsnId="16" runNo="5" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">54.32</resVal>
+<resVal id="2">41.13</resVal>
+<resVal id="3">29.89</resVal>
+</run>
+<run stdNo="13" dsnId="14" runNo="6" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">-1.68179283050743</facActual>
+<resVal id="1">53.42</resVal>
+<resVal id="2">46.56</resVal>
+<resVal id="3">27.27</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="7" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">55.42</resVal>
+<resVal id="2">27.61</resVal>
+<resVal id="3">20.11</resVal>
+</run>
+<run stdNo="7" dsnId="8" runNo="8" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">60.37</resVal>
+<resVal id="2">16.16</resVal>
+<resVal id="3">39.84</resVal>
+</run>
+<run stdNo="5" dsnId="6" runNo="9" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">-1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">58.69</resVal>
+<resVal id="2">32.9</resVal>
+<resVal id="3">21.09</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="10" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">-1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">57.01</resVal>
+<resVal id="2">33.46</resVal>
+<resVal id="3">18.22</resVal>
+</run>
+<run stdNo="12" dsnId="13" runNo="11" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">1.68179283050743</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">54.67</resVal>
+<resVal id="2">36.24</resVal>
+<resVal id="3">29.15</resVal>
+</run>
+<run stdNo="17" dsnId="16" runNo="12" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">52.41</resVal>
+<resVal id="2">38.6</resVal>
+<resVal id="3">37.43</resVal>
+</run>
+<run stdNo="1" dsnId="2" runNo="13" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">-1</facActual>
+<facActual id="C">-1</facActual>
+<resVal id="1">53.83</resVal>
+<resVal id="2">40</resVal>
+<resVal id="3">27.33</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="14" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">-1</facActual>
+<resVal id="1">54.37</resVal>
+<resVal id="2">21.16</resVal>
+<resVal id="3">33.35</resVal>
+</run>
+<run stdNo="16" dsnId="16" runNo="15" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">52.64</resVal>
+<resVal id="2">41.83</resVal>
+<resVal id="3">29.95</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="16" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">-1.68179283050743</facActual>
+<facActual id="B">0</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">49.14</resVal>
+<resVal id="2">36.4</resVal>
+<resVal id="3">25.05</resVal>
+</run>
+<run stdNo="11" dsnId="12" runNo="17" blockNo="0" blockName="Block 1" pointId="10" pointName="Axial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0</facActual>
+<facActual id="B">-1.68179283050743</facActual>
+<facActual id="C">0</facActual>
+<resVal id="1">53.87</resVal>
+<resVal id="2">17.39</resVal>
+<resVal id="3">40</resVal>
+</run>
+<responseModel rmId="1" analysisUuId="1c3b1057-87a3-482d-a70e-334f590cf096" name="Rendemen minyak">
+<response id="1" responseUuId="d806dae1-e056-49cb-ae3f-46e830e7de38" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="2.77405150721934"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="1">
+<equationTerm id="0" coef="54.7135294117647" term="Intercept"/>
+<equationTerm id="1" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="2" analysisUuId="c7481417-7d51-41c3-989c-6cdb2de34c77" name="Viskositas pada 40 C">
+<response id="2" responseUuId="13eca3d8-1ceb-4dca-a485-0e8c5d404c06" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="10.5489416726394"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="10">
+<equationTerm id="0" coef="40.9483531409309" term="Intercept"/>
+<equationTerm id="1" coef="-1.83903891963205" term="A"/>
+<equationTerm id="2" coef="-1.70890050655717" term="B"/>
+<equationTerm id="3" coef="0.580848328847294" term="C"/>
+<equationTerm id="4" coef="2.015" term="AB"/>
+<equationTerm id="5" coef="2.6375" term="AC"/>
+<equationTerm id="6" coef="1.2325" term="BC"/>
+<equationTerm id="7" coef="-5.87898857064621" term="A^2"/>
+<equationTerm id="8" coef="-6.3209303088878" term="B^2"/>
+<equationTerm id="9" coef="1.81963650952232" term="C^2"/>
+<equationTerm id="10" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="3" analysisUuId="9b6a89ac-9146-4261-9f96-05c9ae0f0e41" name="Bilangan asam">
+<response id="3" responseUuId="57118e10-902a-4de1-93c9-1d5b27eb1bb9" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="5.89355692416383"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="7">
+<equationTerm id="0" coef="29.1235294117647" term="Intercept"/>
+<equationTerm id="1" coef="-1.80940532995766" term="A"/>
+<equationTerm id="2" coef="-0.72325969293937" term="B"/>
+<equationTerm id="3" coef="-1.79740321253711" term="C"/>
+<equationTerm id="4" coef="-5.14625" term="AB"/>
+<equationTerm id="5" coef="-3.59125" term="AC"/>
+<equationTerm id="6" coef="4.11375" term="BC"/>
+<equationTerm id="7" term="Curvature"/>
+</compModel>
+</responseModel>
+<optimization models="9">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="3" goal="InRange" type="Numeric" target="0" limitLow="-1" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="None" type="Numeric" target="54.755" limitLow="49.14" limitHigh="60.37" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="d806dae1-e056-49cb-ae3f-46e830e7de38" rmId="1" analysisUuId="1c3b1057-87a3-482d-a70e-334f590cf096"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="d806dae1-e056-49cb-ae3f-46e830e7de38" rmId="1" analysisUuId="1c3b1057-87a3-482d-a70e-334f590cf096"/>
+<criteria modType="Response" id="2" goal="None" type="Numeric" target="34.64" limitLow="16.16" limitHigh="53.12" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="13eca3d8-1ceb-4dca-a485-0e8c5d404c06" rmId="2" analysisUuId="c7481417-7d51-41c3-989c-6cdb2de34c77"/>
+<criteria modType="POE" id="2" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="13eca3d8-1ceb-4dca-a485-0e8c5d404c06" rmId="2" analysisUuId="c7481417-7d51-41c3-989c-6cdb2de34c77"/>
+<criteria modType="Response" id="3" goal="None" type="Numeric" target="30.385" limitLow="18.22" limitHigh="42.55" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="57118e10-902a-4de1-93c9-1d5b27eb1bb9" rmId="3" analysisUuId="9b6a89ac-9146-4261-9f96-05c9ae0f0e41"/>
+<criteria modType="POE" id="3" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="57118e10-902a-4de1-93c9-1d5b27eb1bb9" rmId="3" analysisUuId="9b6a89ac-9146-4261-9f96-05c9ae0f0e41"/>
+</optimization>
+<buildInfo CCDType="Full" alphaType="Rotatable" noOfFactorialReps="1" noOfAxialReplicates="1" noOfCenterPoints="3" buildTime="2"/>
+</DEXXMLDoc>
